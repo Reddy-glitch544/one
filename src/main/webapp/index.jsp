@@ -1186,7 +1186,7 @@
         <section class="hero" aria-label="Hero banner">
             <div class="container">
                 <div class="badge"><i class="fas fa-sparkles"></i> New Collection 2026</div>
-                <h1>find Premium <br>Essentials</h1>
+                <h1>discover Premium <br>Essentials</h1>
                 <p>Curated fashion, tech & accessories with free shipping on your first order. Limited-time deals await.</p>
                 <div class="actions">
                     <button class="btn btn-primary" id="shopNow"><i class="fas fa-arrow-right"></i> Shop Now</button>
@@ -1201,7 +1201,7 @@
                 <div class="section-header">
                     <div class="title-group">
                         <h2 id="cat-title">Browse Categories</h2>
-                        <p>Find exactly what you're looking for</p>
+                        <p>discover exactly what you're looking for</p>
                     </div>
                     <a href="#" class="view-all">All Categories <i class="fas fa-arrow-right"></i></a>
                 </div>
@@ -1550,7 +1550,7 @@
         }
 
         function addToCart(productId, btnEl) {
-            const p = PRODUCTS.find(x => x.id === productId);
+            const p = PRODUCTS.discover(x => x.id === productId);
             if (!p) return;
             cartCount++;
             updateCartCount();
